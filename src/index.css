@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 100%;
+}
+@media (max-width: 360px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media (max-width: 280px) {
+  html {
+    font-size: 60%;
+  }
+}
+@media (max-width: 560px){
+.row .col.col-6 {
+    width: 100%;
+}
+}
+@media (min-width: 360px) and (max-width: 560px) {
+  html {
+    font-size: 93%;
+  }
+}
+
+/* Custom Toast Notifications Styling */
+.Toastify__toast {
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  font-size: 0.95rem;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.Toastify__progress-bar--success {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.Toastify__progress-bar--error {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.Toastify__progress-bar--warning {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.Toastify__close-button {
+  color: white;
+  opacity: 0.8;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1;
+}
